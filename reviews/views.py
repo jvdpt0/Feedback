@@ -13,7 +13,7 @@ from .models import Review
 
 class ReviewView(FormView):
     form_class = ReviewForm
-    template_name = 'reviews/reviews.html'
+    template_name = 'reviews/review.html'
     success_url = '/thank-you'
 
     def form_valid(self, form):
